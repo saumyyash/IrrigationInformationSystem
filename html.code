@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irrigation Information System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #007BFF;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Irrigation Information System</h1>
+</header>
+
+<main>
+    <div class="section">
+        <h2>Soil Moisture</h2>
+        <p>Current soil moisture level: 35%</p>
+        <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="section">
+        <h2>Weather Forecast</h2>
+        <p>Today's weather: Sunny, 28°C</p>
+        <a href="#" class="btn">More Info</a>
+    </div>
+    <div class="section">
+        <h2>Watering Schedule</h2>
+        <p>Next scheduled watering: Tomorrow at 6:00 AM</p>
+        <a href="#" class="btn">Edit Schedule</a>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Irrigation System Inc. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
